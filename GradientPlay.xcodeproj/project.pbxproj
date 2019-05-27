@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F89AF811229BDCC300FCF196 /* ListOfStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89AF810229BDCC300FCF196 /* ListOfStylesViewController.swift */; };
+		F89AF815229BDD8D00FCF196 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89AF814229BDD8D00FCF196 /* CustomButton.swift */; };
 		F8EB456B227CC29D000EAEFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB456A227CC29D000EAEFA /* AppDelegate.swift */; };
 		F8EB456D227CC29D000EAEFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB456C227CC29D000EAEFA /* ViewController.swift */; };
 		F8EB4572227CC2A3000EAEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EB4571227CC2A3000EAEFA /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F89AF810229BDCC300FCF196 /* ListOfStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfStylesViewController.swift; sourceTree = "<group>"; };
+		F89AF814229BDD8D00FCF196 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		F8EB4567227CC29D000EAEFA /* GradientPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EB456A227CC29D000EAEFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8EB456C227CC29D000EAEFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +58,11 @@
 			children = (
 				F8EB456A227CC29D000EAEFA /* AppDelegate.swift */,
 				F8EB456C227CC29D000EAEFA /* ViewController.swift */,
+				F89AF810229BDCC300FCF196 /* ListOfStylesViewController.swift */,
 				F8EB4571227CC2A3000EAEFA /* Assets.xcassets */,
 				F8EB4573227CC2A3000EAEFA /* LaunchScreen.storyboard */,
 				F8EB4576227CC2A3000EAEFA /* Info.plist */,
+				F89AF814229BDD8D00FCF196 /* CustomButton.swift */,
 			);
 			path = GradientPlay;
 			sourceTree = "<group>";
@@ -133,6 +139,8 @@
 			files = (
 				F8EB456D227CC29D000EAEFA /* ViewController.swift in Sources */,
 				F8EB456B227CC29D000EAEFA /* AppDelegate.swift in Sources */,
+				F89AF811229BDCC300FCF196 /* ListOfStylesViewController.swift in Sources */,
+				F89AF815229BDD8D00FCF196 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
