@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class ListOfStylesViewController: UIViewController {
     
@@ -16,12 +17,13 @@ class ListOfStylesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let nextX = self.view.bounds.maxX - 75
+        let nextY = self.view.bounds.maxY - 75
+        
         self.view.setGradient(colorOne: UIColor.green, colorTwo: UIColor.blue)
         
         nextButton.backgroundColor = .white
         self.view.addSubview(nextButton)
-        let nextX = self.view.bounds.maxX - 75
-        let nextY = self.view.bounds.maxY - 75
         nextButton.frame = CGRect(x: nextX, y: nextY, width: 50, height: 50)
         nextButton.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
         
@@ -30,11 +32,12 @@ class ListOfStylesViewController: UIViewController {
         let prevX = self.view.bounds.minX + 25
         previousButton.frame = CGRect(x: prevX, y: nextY, width: 50, height: 50)
         previousButton.addTarget(self, action: #selector(prevButtonTapped), for: .touchUpInside)
-
+ 
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        //Use this method if you are adding buttons with gradients
         
     }
     
